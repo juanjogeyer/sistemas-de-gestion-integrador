@@ -97,7 +97,81 @@ materia.
 
 ## 4. Presentación del problema u oportunidad
 
-*(Pendiente)*
+### 4.1 Contexto en el que surge la situación
+
+La organización sobre la que se desarrolla el proyecto es una pequeña y mediana
+empresa (PyME) del sector comercial, dedicada a la comercialización de productos
+a través de **dos sucursales** y de un canal de venta no presencial mediante
+**WhatsApp y correo electrónico**. Su operatoria diaria —la gestión de pedidos,
+del stock, de los clientes y de los reportes— se sostiene actualmente con
+**planillas de cálculo y registros manuales**, sin un sistema de información que
+integre esas tareas.
+
+Este esquema resultó suficiente en las etapas iniciales de la empresa, pero a
+medida que aumentan el volumen de operaciones y la cantidad de puntos de venta,
+las herramientas manuales se vuelven difíciles de mantener: la información queda
+dispersa, desactualizada y sujeta a errores. La dirección de la empresa advierte
+esta limitación y evalúa la incorporación de un sistema integral de gestión
+comercial como respuesta.
+
+### 4.2 Problema detectado
+
+El problema central es que **la gestión comercial de la empresa depende de
+procesos manuales y de información no integrada**, lo que genera errores,
+ineficiencia y falta de visibilidad. Las dificultades concretas relevadas pueden
+agruparse en cuatro ejes:
+
+| Eje | Dificultades identificadas |
+|---|---|
+| **Información dispersa y sin trazabilidad** | Falta de trazabilidad de ventas y clientes; ausencia de una base centralizada de clientes. |
+| **Errores operativos** | Diferencias frecuentes entre el stock real y el registrado; errores en la carga de pedidos y en la facturación. |
+| **Ineficiencia operativa** | Demoras en la atención de pedidos; fuerte dependencia de tareas manuales repetitivas. |
+| **Falta de información para decidir** | Dificultad para conocer los márgenes por producto; escasa información para la toma de decisiones de la gerencia. |
+
+Estas dificultades no son independientes entre sí: la falta de integración de la
+información es la causa de fondo de la que se derivan, en mayor o menor medida,
+las demás.
+
+### 4.3 Por qué resulta relevante abordar la situación
+
+Abordar esta situación es relevante porque sus consecuencias **impactan
+directamente sobre la rentabilidad y la competitividad** de la empresa:
+
+- Los descuadres de stock y la dificultad para conocer los márgenes por producto
+  generan pérdidas económicas y decisiones de compra y de precios poco
+  fundamentadas.
+- Las demoras y los errores en pedidos y facturación afectan la calidad del
+  servicio, provocan reclamos y pueden derivar en la pérdida de clientes.
+- La dependencia de tareas manuales consume tiempo del personal en actividades
+  de bajo valor agregado, que podría destinarse a la atención y a la venta.
+- La falta de información oportuna limita la capacidad de la dirección para
+  tomar decisiones, justamente cuando la empresa atraviesa una etapa de
+  crecimiento.
+
+Además, se trata de un problema **creciente**: cuanto mayor sea el volumen de
+operaciones, mayores serán los errores y las pérdidas asociadas al esquema
+manual. El hecho de que la propia dirección ya esté evaluando una solución
+muestra que existe conciencia del problema y voluntad de invertir para
+resolverlo.
+
+### 4.4 Necesidad u oportunidad que busca atender el proyecto
+
+A partir de lo anterior, el proyecto busca atender la necesidad de
+**centralizar, integrar y ordenar la gestión comercial de la empresa** mediante
+un sistema único. Más que la corrección de fallas aisladas, se plantea como una
+**oportunidad de mejora** orientada a:
+
+- contar con información única, confiable y actualizada sobre ventas, stock y
+  clientes;
+- reducir los errores de carga, facturación y control de inventario;
+- automatizar las tareas manuales repetitivas y agilizar la atención de pedidos;
+- brindar a la gerencia un tablero de control con indicadores que sustente la
+  toma de decisiones;
+- sentar una base ordenada para el crecimiento futuro de la empresa.
+
+En síntesis, la situación da origen a un proyecto cuyo sentido no es únicamente
+tecnológico, sino de **mejora de la eficiencia, del control y de la capacidad de
+gestión** del negocio.
 
 ## 5. Descripción general del proyecto
 
