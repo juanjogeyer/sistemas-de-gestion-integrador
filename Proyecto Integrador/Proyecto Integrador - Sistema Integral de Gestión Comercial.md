@@ -170,7 +170,99 @@ gestión del negocio.
 
 ## 5. Descripción general del proyecto
 
-*(Pendiente)*
+### 5.1 Nombre del proyecto
+
+**Implementación de un Sistema Integral de Gestión Comercial y Tablero de
+Control.** A lo largo del documento, el sistema se referenciará de forma
+abreviada como **SIGC** (Sistema Integral de Gestión Comercial).
+
+### 5.2 Descripción general de la propuesta
+
+El proyecto consiste en **implementar un sistema integral de gestión comercial**
+que reemplace las planillas de cálculo y los registros manuales por una única
+herramienta informática, utilizada en las dos sucursales de la empresa.
+
+El sistema integra, en un mismo entorno, los siguientes componentes:
+
+- **Sistema de gestión comercial**, que registra y administra las ventas de
+  ambas sucursales, incluidas las originadas por los canales de WhatsApp y
+  correo electrónico.
+- **Módulo de stock e inventario**, que mantiene actualizado el stock en tiempo
+  real, apoyado en lectores de código de barras.
+- **Base centralizada de clientes**, que reúne en un único repositorio la
+  información hoy dispersa.
+- **Carga digital de pedidos**, que ordena y estandariza el ingreso de pedidos y
+  su posterior facturación.
+- **Reportes comerciales** y un **tablero de control** con indicadores para la
+  gerencia.
+
+La implementación incluye, además, la **migración inicial de los datos**
+existentes en las planillas y la **capacitación de los usuarios**, de modo de
+asegurar la puesta en marcha y la adopción del sistema.
+
+### 5.3 Objetivo principal
+
+Dotar a la empresa de un sistema integral de gestión comercial que **centralice
+y automatice la administración de las ventas, el stock y los clientes**,
+reduciendo los errores y los tiempos de proceso, y que provea a la dirección
+**información oportuna y confiable** para la toma de decisiones.
+
+### 5.4 Objetivos específicos
+
+1. Centralizar en un único sistema la información de ventas, stock y clientes
+   hoy dispersa en planillas y registros manuales.
+2. Mantener el stock actualizado en tiempo real, incorporando la lectura de
+   código de barras para reducir las diferencias entre el stock real y el
+   registrado.
+3. Digitalizar la carga de pedidos y la facturación para disminuir los errores y
+   las demoras en la atención.
+4. Constituir una base centralizada de clientes que permita la trazabilidad de
+   las ventas.
+5. Proveer reportes comerciales y un tablero de control con indicadores que
+   sustente la toma de decisiones de la gerencia.
+6. Reducir la dependencia de tareas manuales repetitivas, liberando tiempo del
+   personal para tareas de mayor valor.
+7. Asegurar la adopción del sistema mediante la migración de los datos
+   existentes y la capacitación de los usuarios.
+
+### 5.5 Alcance del proyecto
+
+El proyecto abarca la implementación completa del sistema en las dos sucursales
+actuales de la empresa.
+
+**Incluye:**
+
+- Los módulos de ventas, stock e inventario, clientes, carga digital de pedidos,
+  reportes comerciales y tablero de control.
+- La configuración del sistema y las integraciones necesarias para su puesta en
+  marcha.
+- El equipamiento y los lectores de código de barras para las dos sucursales.
+- La migración inicial de los datos existentes en las planillas de cálculo.
+- La capacitación inicial de los usuarios.
+
+**No incluye (en esta etapa):**
+
+- El desarrollo de una tienda online o canal de venta de comercio electrónico
+  propio.
+- La integración automática con los canales de mensajería (WhatsApp y correo
+  electrónico); los pedidos recibidos por esos medios se cargan en el sistema.
+- Módulos de contabilidad, liquidación de sueldos o gestión de recursos humanos.
+- La apertura de nuevas sucursales; el sistema queda preparado para escalar, pero
+  el proyecto se limita a los dos puntos de venta existentes.
+
+### 5.6 Destinatarios, usuarios y beneficiarios
+
+| Tipo | Quiénes | Vínculo con el sistema |
+|---|---|---|
+| Usuarios directos | Personal de ventas y atención de las dos sucursales | Registran ventas y cargan pedidos. |
+| Usuarios directos | Personal administrativo | Gestiona stock, facturación y reportes. |
+| Usuarios directos | Gerencia / dirección | Consulta el tablero de control y los reportes para decidir. |
+| Beneficiario principal | La empresa en su conjunto | Mejora la eficiencia, el control y la capacidad de gestión. |
+| Beneficiarios indirectos | Los clientes | Reciben una atención más rápida y con menos errores. |
+
+La descripción anterior es coherente con el problema planteado en la Sección 4:
+cada componente del SIGC responde a una de las dificultades relevadas en la
+operatoria manual de la empresa.
 
 ## 6. Análisis del contexto
 
