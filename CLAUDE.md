@@ -62,6 +62,25 @@ Convenciones que ya están en uso (respetarlas, no renombrar):
 - **Antes de crear una carpeta nueva**: revisar si ya hay una equivalente.
   Preferir agregar a la estructura existente antes que inventar otra paralela.
 
+## Reglas obligatorias para Claude Code (acordadas por el equipo)
+
+Estas condiciones aplican siempre que se trabaje sobre este repo, en cualquier
+sesión y para cualquier integrante del equipo:
+
+1. **Mantener este `CLAUDE.md` siempre actualizado.** Apenas surja una
+   decisión, convención, preferencia del equipo o contexto nuevo de la
+   cursada que valga la pena recordar para futuras sesiones, agregarlo o
+   actualizarlo en este archivo en el mismo turno. No esperar al final de
+   la sesión ni a que el usuario lo pida explícitamente.
+2. **Commit + push por cada punto que se va terminando.** No batchear
+   entregas en un único commit gigante al final. Cada vez que se completa
+   un punto concreto (una consigna resuelta, una sección redactada, una
+   actualización a `CLAUDE.md`, etc.), hacer commit con mensaje descriptivo
+   en español y `git push origin main` enseguida, para que el resto del
+   equipo lo vea sin demora.
+   - Excepción: si el push falla por permisos o por trabajo sin terminar a
+     medio camino, avisar al usuario antes de seguir.
+
 ## Convenciones de git
 
 - Commits en español, prefijos `feat:`, `fix:`, `docs:`, `chore:`.
