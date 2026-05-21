@@ -172,54 +172,52 @@ gestión del negocio.
 
 ### 5.1 Nombre del proyecto
 
-**Implementación de un Sistema Integral de Gestión Comercial y Tablero de
-Control.** A lo largo del documento, el sistema se referenciará de forma
-abreviada como **SIGC** (Sistema Integral de Gestión Comercial).
+El proyecto se denomina Implementación de un Sistema Integral de Gestión
+Comercial y Tablero de Control. A lo largo del documento, el sistema se
+referencia de forma abreviada como SIGC (Sistema Integral de Gestión Comercial).
 
 ### 5.2 Descripción general de la propuesta
 
-El proyecto consiste en **implementar un sistema integral de gestión comercial**
-que reemplace las planillas de cálculo y los registros manuales por una única
+El proyecto consiste en implementar un sistema integral de gestión comercial que
+reemplace las planillas de cálculo y los registros manuales por una única
 herramienta informática, utilizada en las dos sucursales de la empresa.
 
 El sistema integra, en un mismo entorno, los siguientes componentes:
 
-- **Sistema de gestión comercial**, que registra y administra las ventas de
-  ambas sucursales, incluidas las originadas por los canales de WhatsApp y
-  correo electrónico.
-- **Módulo de stock e inventario**, que mantiene actualizado el stock en tiempo
+- Sistema de gestión comercial, que registra y administra las ventas de ambas
+  sucursales, incluidas las que llegan por WhatsApp y correo electrónico.
+- Módulo de stock e inventario, que mantiene actualizado el stock en tiempo
   real, apoyado en lectores de código de barras.
-- **Base centralizada de clientes**, que reúne en un único repositorio la
+- Base centralizada de clientes, que reúne en un único repositorio la
   información hoy dispersa.
-- **Carga digital de pedidos**, que ordena y estandariza el ingreso de pedidos y
-  su posterior facturación.
-- **Reportes comerciales** y un **tablero de control** con indicadores para la
-  gerencia.
+- Carga digital de pedidos, que ordena y estandariza el ingreso de pedidos y su
+  posterior facturación.
+- Reportes comerciales y un tablero de control con indicadores para la gerencia.
 
-La implementación incluye, además, la **migración inicial de los datos**
-existentes en las planillas y la **capacitación de los usuarios**, de modo de
-asegurar la puesta en marcha y la adopción del sistema.
+La implementación incluye, además, la migración inicial de los datos que hoy
+están en las planillas y la capacitación de los usuarios, para asegurar la
+puesta en marcha y la adopción del sistema.
 
 ### 5.3 Objetivo principal
 
-Dotar a la empresa de un sistema integral de gestión comercial que **centralice
-y automatice la administración de las ventas, el stock y los clientes**,
-reduciendo los errores y los tiempos de proceso, y que provea a la dirección
-**información oportuna y confiable** para la toma de decisiones.
+Dotar a la empresa de un sistema integral de gestión comercial que centralice y
+automatice la administración de las ventas, el stock y los clientes, reduciendo
+los errores y los tiempos de proceso, y que le dé a la dirección información
+oportuna y confiable para la toma de decisiones.
 
 ### 5.4 Objetivos específicos
 
 1. Centralizar en un único sistema la información de ventas, stock y clientes
-   hoy dispersa en planillas y registros manuales.
+   que hoy está dispersa en planillas y registros manuales.
 2. Mantener el stock actualizado en tiempo real, incorporando la lectura de
    código de barras para reducir las diferencias entre el stock real y el
    registrado.
 3. Digitalizar la carga de pedidos y la facturación para disminuir los errores y
    las demoras en la atención.
-4. Constituir una base centralizada de clientes que permita la trazabilidad de
-   las ventas.
-5. Proveer reportes comerciales y un tablero de control con indicadores que
-   sustente la toma de decisiones de la gerencia.
+4. Armar una base centralizada de clientes que permita la trazabilidad de las
+   ventas.
+5. Generar reportes comerciales y un tablero de control con indicadores que
+   ayuden a la gerencia a tomar decisiones.
 6. Reducir la dependencia de tareas manuales repetitivas, liberando tiempo del
    personal para tareas de mayor valor.
 7. Asegurar la adopción del sistema mediante la migración de los datos
@@ -230,7 +228,7 @@ reduciendo los errores y los tiempos de proceso, y que provea a la dirección
 El proyecto abarca la implementación completa del sistema en las dos sucursales
 actuales de la empresa.
 
-**Incluye:**
+Queda dentro del alcance:
 
 - Los módulos de ventas, stock e inventario, clientes, carga digital de pedidos,
   reportes comerciales y tablero de control.
@@ -240,7 +238,7 @@ actuales de la empresa.
 - La migración inicial de los datos existentes en las planillas de cálculo.
 - La capacitación inicial de los usuarios.
 
-**No incluye (en esta etapa):**
+Queda fuera del alcance, en esta etapa:
 
 - El desarrollo de una tienda online o canal de venta de comercio electrónico
   propio.
