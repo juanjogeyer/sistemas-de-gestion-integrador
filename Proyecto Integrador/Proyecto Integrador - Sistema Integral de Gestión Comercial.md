@@ -264,7 +264,98 @@ operatoria manual de la empresa.
 
 ## 6. Análisis del contexto
 
-*(Pendiente)*
+### 6.1 Contexto organizacional
+
+La empresa es una PyME del sector comercial que opera con dos sucursales y vende
+tanto de forma presencial como a través de WhatsApp y correo electrónico. Es una
+organización de estructura reducida, en la que pueden distinguirse tres grupos
+de trabajo: el personal de ventas y atención de cada sucursal, el personal
+administrativo —encargado de la facturación, el control de stock y los
+reportes— y la dirección o gerencia, que concentra la toma de decisiones.
+
+La gestión se apoya hoy en planillas de cálculo y registros manuales, una forma
+de trabajo a la que el personal está habituado. La incorporación del SIGC
+supone, por lo tanto, un cambio en la manera de trabajar, lo que vuelve
+importante el acompañamiento y la capacitación. Un elemento favorable del
+contexto organizacional es que la propia dirección es la que impulsa el
+proyecto: existe un patrocinador interno interesado en que la iniciativa se
+concrete.
+
+### 6.2 Entorno del proyecto
+
+El proyecto se desarrolla dentro de la empresa y no depende de manera directa de
+factores externos como regulaciones o trámites especiales. De todos modos,
+algunos elementos del entorno resultan relevantes:
+
+- Entorno tecnológico: las herramientas necesarias para el proyecto —sistemas de
+  gestión comercial, servicios de hosting, lectores de código de barras— son
+  tecnologías maduras, disponibles en el mercado y de costo accesible para una
+  PyME. Esto hace que la propuesta sea técnicamente realizable sin necesidad de
+  desarrollos complejos a medida.
+- Entorno de mercado: en el comercio, los clientes valoran la rapidez y la
+  precisión en la atención, y la competencia tiende a incorporar herramientas
+  digitales de gestión. Ordenar la operatoria interna ayuda a la empresa a
+  sostener su competitividad.
+
+### 6.3 Situación actual
+
+Actualmente la empresa gestiona sus operaciones sin un sistema de información
+integrado. Cada proceso se maneja por separado, como se resume a continuación:
+
+| Proceso | Cómo se gestiona hoy |
+|---|---|
+| Ventas | Se registran en planillas de cálculo, de forma separada en cada sucursal. |
+| Pedidos | Los pedidos que llegan por WhatsApp y correo electrónico se cargan a mano. |
+| Stock | Se controla manualmente, lo que produce diferencias entre el stock real y el registrado. |
+| Clientes | La información está dispersa en distintos registros, sin una base única. |
+| Facturación | Se realiza manualmente, con riesgo de errores de carga. |
+| Reportes | Se arman a mano a partir de las planillas, con demora y poca confiabilidad. |
+
+Esta situación es la que da origen al proyecto y explica por qué la información
+de la empresa resulta dispersa, poco confiable y difícil de aprovechar para
+tomar decisiones.
+
+### 6.4 Actores involucrados
+
+En el desarrollo del proyecto intervienen distintos actores, con diferente grado
+de interés e influencia sobre su resultado:
+
+| Actor | Rol en el proyecto | Interés | Influencia |
+|---|---|---|---|
+| Dirección / gerencia | Patrocina el proyecto, decide y financia la inversión. | Alto | Alta |
+| Personal administrativo | Usuario directo: stock, facturación y reportes. | Alto | Media |
+| Personal de ventas y atención | Usuario directo: registro de ventas y carga de pedidos. | Medio | Media |
+| Proveedor / implementador del sistema | Provee, configura, migra los datos y capacita. | Medio | Alta |
+| Clientes de la empresa | Beneficiarios indirectos de una atención más ágil. | Bajo | Baja |
+
+Los actores más críticos son la dirección y el personal administrativo. La
+dirección, porque sin su apoyo y financiamiento el proyecto no se realiza; el
+personal administrativo, porque es quien más usa el sistema en el día a día y de
+su adopción depende buena parte del éxito. El proveedor del sistema también
+tiene una influencia importante, ya que de su trabajo dependen la correcta
+implementación y la capacitación.
+
+### 6.5 Condiciones relevantes para el desarrollo de la propuesta
+
+Para que el proyecto pueda llevarse adelante con éxito, hay que tener en cuenta
+algunas condiciones:
+
+- El compromiso sostenido de la dirección, tanto en el financiamiento como en el
+  acompañamiento del cambio.
+- La disponibilidad del presupuesto necesario para afrontar la inversión inicial
+  y los costos operativos del sistema.
+- La capacitación del personal y el acompañamiento durante la transición, para
+  reducir la resistencia al cambio.
+- La calidad de los datos actuales de las planillas, ya que de ella depende que
+  la migración inicial sea confiable.
+- Una infraestructura mínima de equipamiento y conectividad en las dos
+  sucursales.
+- El mantenimiento de la operación durante la implementación, para no
+  interrumpir la atención a los clientes.
+
+En su mayoría, estas condiciones se presentan de manera favorable —en particular
+el respaldo de la dirección—, lo que sustenta la viabilidad y la pertinencia de
+avanzar con la propuesta.
 
 ## 7. Análisis técnico y organizacional
 
