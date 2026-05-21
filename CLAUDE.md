@@ -30,6 +30,12 @@ Antes de trabajar sobre el integrador, leer:
 - `ISI5t0Sg2026_ Plantilla orientativa de entrega del proyecto integrador.pdf`
 - `ISI5t0Sg2026_ Criterios generales de evaluación del proyecto.pdf`
 
+El desarrollo del equipo se redacta en un único documento Markdown:
+`Proyecto Integrador/Proyecto Integrador - Sistema Integral de Gestión Comercial.md`.
+Se completa **sección por sección** siguiendo las 12 secciones de la plantilla
+orientativa. No crear archivos sueltos por sección ni duplicar el documento; al
+finalizar se exportará a Word/PDF para la entrega.
+
 ## Estructura del repo
 
 ```
