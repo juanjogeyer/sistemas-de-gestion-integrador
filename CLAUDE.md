@@ -60,6 +60,11 @@ Convenciones que ya están en uso (respetarlas, no renombrar):
 
 - **Idioma**: todo en español (commits, comentarios, documentos, nombres de
   archivos de entrega).
+- **Estilo de redacción de las entregas**: redacción clara y correcta pero en
+  "estilo alumno", sin tono de consultora. Evitar las negritas dentro de los
+  párrafos y de las listas (reservarlas, a lo sumo, para títulos). No incorporar
+  supuestos que no estén respaldados por el caso provisto o por el material de
+  la cátedra.
 - **No tocar el material del profesor** (PDFs `UTN-SdG-Clase_*`). Si hay que
   anotar sobre un PDF, crear una copia con sufijo `-anotado` o un archivo
   aparte.
