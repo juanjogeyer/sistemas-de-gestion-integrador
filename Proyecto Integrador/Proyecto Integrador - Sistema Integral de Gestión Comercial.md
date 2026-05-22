@@ -359,7 +359,109 @@ avanzar con la propuesta.
 
 ## 7. Análisis técnico y organizacional
 
-*(Pendiente)*
+### 7.1 Procesos involucrados
+
+Los procesos comerciales que cambian con la incorporación del SIGC son los
+mismos que se describieron en la situación actual. La diferencia es que pasan a
+operar de manera integrada y digital:
+
+| Proceso | Hoy | Con el SIGC |
+|---|---|---|
+| Ventas | Se registran en planillas separadas por sucursal. | Se registran en el sistema, en una única base compartida por ambas sucursales. |
+| Pedidos | Se cargan a mano a partir de los mensajes de WhatsApp y de correo. | Se cargan al sistema desde un formulario único y quedan vinculados al cliente. |
+| Stock | Se controla manualmente, con diferencias frecuentes entre lo real y lo registrado. | El sistema actualiza el stock en tiempo real con cada venta y se apoya en lectores de código de barras. |
+| Clientes | Información dispersa en distintos registros. | Base centralizada con datos, historial y contacto de cada cliente. |
+| Facturación | Se realiza manualmente, con riesgo de errores de tipeo. | Se emite desde el sistema a partir del pedido cargado. |
+| Reportes | Se arman a mano a partir de las planillas. | Se generan automáticamente y se acompañan de un tablero de control para la gerencia. |
+
+### 7.2 Tecnología y recursos requeridos
+
+Para llevar adelante el proyecto se necesitan:
+
+- Un sistema de gestión comercial, contratado bajo modalidad de licencia y
+  soporte, que incluya los módulos de ventas, stock e inventario, clientes,
+  carga de pedidos, reportes y tablero de control.
+- Un servicio de hosting en la nube donde correr el sistema, de modo que pueda
+  accederse desde ambas sucursales y desde la administración.
+- Lectores de código de barras y equipamiento asociado para las dos sucursales.
+- El acompañamiento del proveedor del sistema para la configuración, las
+  integraciones, la migración inicial de datos y la capacitación.
+- Recursos humanos internos: un referente del proyecto del lado de la empresa y
+  el personal de cada área dispuesto a participar de la capacitación.
+- Presupuesto para afrontar la inversión inicial y los costos operativos
+  anuales; el detalle de los montos se desarrolla en la Sección 8.
+
+### 7.3 Infraestructura
+
+La infraestructura necesaria es la habitual de una PyME comercial que se mueve
+hacia herramientas digitales:
+
+- En cada sucursal: estaciones de trabajo (PC o terminal) para registrar ventas
+  y cargar pedidos, lectores de código de barras para el control de stock y
+  conexión a internet estable.
+- En la oficina administrativa y para la dirección: equipos desde los cuales
+  administrar el sistema, gestionar la facturación y consultar el tablero de
+  control.
+- En el backend: hosting del sistema en la nube, provisto por el mismo proveedor
+  o por un servicio asociado, de modo que la empresa no necesite mantener un
+  servidor propio.
+
+### 7.4 Roles y áreas participantes
+
+El proyecto involucra a distintos roles, tanto durante la implementación como
+en la operación posterior:
+
+| Etapa | Rol | Función |
+|---|---|---|
+| Implementación | Dirección | Patrocina, decide y aprueba el avance. |
+| Implementación | Referente interno del proyecto | Coordina con el proveedor, valida los procesos y centraliza las consultas del equipo. |
+| Implementación | Proveedor / implementador | Provee el sistema, lo configura, realiza las integraciones, migra los datos y capacita. |
+| Implementación | Personal de las sucursales y de administración | Participa del relevamiento y de las capacitaciones. |
+| Operación | Personal de ventas y atención | Usa el sistema para registrar ventas y cargar pedidos. |
+| Operación | Personal administrativo | Gestiona stock, facturación, clientes y reportes desde el sistema. |
+| Operación | Dirección | Consulta el tablero de control y los reportes para tomar decisiones. |
+| Operación | Proveedor | Brinda soporte y mantenimiento a través del contrato anual. |
+
+### 7.5 Cambios organizacionales esperados
+
+La incorporación del SIGC supone varios cambios en la forma de trabajo de la
+empresa:
+
+- Se pasa de varias planillas separadas a una única fuente de información, lo
+  que exige disciplina en el registro y mayor coordinación entre las dos
+  sucursales.
+- Aparece la necesidad de un referente interno del sistema, que oficie de
+  administrador funcional y de nexo con el proveedor.
+- Los procesos quedan más estandarizados y dejan trazabilidad, lo que cambia la
+  manera de controlar el negocio.
+- Es esperable un período de adaptación al inicio, en el que el personal aprende
+  a operar la nueva herramienta y la empresa ajusta sus rutinas.
+
+Acompañar estos cambios con capacitación y con un seguimiento cercano por parte
+de la dirección es una condición clave para que la mejora se sostenga en el
+tiempo.
+
+### 7.6 Condiciones y etapas de implementación
+
+Para que la implementación sea ordenada, se propone seguir una secuencia de
+etapas:
+
+1. Relevamiento de los procesos actuales y de los datos cargados en las
+   planillas.
+2. Parametrización del sistema y configuración de las integraciones necesarias.
+3. Instalación del equipamiento y de los lectores de código de barras en las
+   sucursales.
+4. Migración inicial de los datos al sistema.
+5. Capacitación del personal en el uso de los distintos módulos.
+6. Puesta en marcha, idealmente con un piloto en una sucursal antes de extender
+   el uso a la otra.
+7. Estabilización y soporte post-implementación durante los primeros meses.
+
+Como condiciones operativas para esta puesta en marcha conviene elegir un
+período de menor movimiento del negocio para reducir el impacto sobre la
+atención al cliente, mantener temporalmente las planillas en paralelo hasta
+confirmar que el sistema funciona de forma estable y prever instancias de ajuste
+luego de la primera etapa de uso.
 
 ## 8. Análisis económico y financiero
 
