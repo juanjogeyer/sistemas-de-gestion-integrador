@@ -465,7 +465,128 @@ luego de la primera etapa de uso.
 
 ## 8. Análisis económico y financiero
 
-*(Pendiente)*
+En esta sección se ordenan los números del proyecto: cuánto cuesta poner en
+marcha el SIGC, cuánto cuesta mantenerlo cada año, qué beneficios económicos se
+esperan y cómo queda el flujo de fondos a lo largo del horizonte de evaluación.
+Todos los montos surgen del caso provisto por la cátedra y están expresados en
+pesos. El detalle completo, con las fórmulas y los cálculos, se acompaña en el
+archivo `Análisis económico y financiero - SIGC.xlsx` que se incluye en los
+anexos (Sección 12).
+
+### 8.1 Supuestos de trabajo
+
+El análisis se apoya en los siguientes supuestos, tomados del enunciado:
+
+| Supuesto | Valor |
+|---|---|
+| Horizonte de evaluación | 5 años |
+| Tasa de descuento anual | 25% |
+| Crecimiento anual de los beneficios | 8% |
+| Inflación | No se considera |
+
+La tasa del 25% se usa para traer a valor presente los flujos futuros y refleja
+el rendimiento mínimo que la empresa le exige al proyecto. Al no considerarse
+inflación, los valores se trabajan de forma constante a lo largo de los cinco
+años.
+
+### 8.2 Inversión inicial
+
+La inversión inicial es el desembolso que la empresa realiza en el momento cero,
+antes de que el sistema empiece a operar. Reúne todo lo necesario para dejar el
+SIGC funcionando en las dos sucursales y en la administración:
+
+| Concepto | Monto |
+|---|---|
+| Implementación del sistema | $4.200.000 |
+| Configuración e integraciones | $2.600.000 |
+| Equipamiento y lectores de código de barras | $2.200.000 |
+| Migración de datos | $1.000.000 |
+| Capacitación inicial | $800.000 |
+| Contingencia | $1.200.000 |
+| Total inversión inicial | $12.000.000 |
+
+El rubro de contingencia se reserva para cubrir imprevistos durante la puesta en
+marcha, como ajustes de configuración o demoras en alguna etapa.
+
+### 8.3 Costos operativos anuales
+
+Una vez en funcionamiento, el sistema genera costos que se repiten todos los
+años. Son los gastos de mantener el servicio en el aire y al equipo capacitado:
+
+| Concepto | Monto anual |
+|---|---|
+| Licencias y soporte | $3.600.000 |
+| Hosting / infraestructura | $700.000 |
+| Mantenimiento y ajustes | $500.000 |
+| Capacitación continua | $300.000 |
+| Total costos operativos anuales | $5.100.000 |
+
+Estos costos se mantienen constantes en los cinco años del análisis y se
+descuentan de los beneficios para obtener el flujo neto de cada período.
+
+### 8.4 Beneficios esperados
+
+Los beneficios son las mejoras económicas que se esperan a partir del uso del
+sistema. Para el primer año se estiman en $11.300.000, repartidos así:
+
+| Concepto | Monto año 1 |
+|---|---|
+| Ahorro de horas administrativas | $4.800.000 |
+| Reducción de errores y reprocesos | $1.500.000 |
+| Menores pérdidas por stock mal gestionado | $2.000.000 |
+| Margen adicional por mejora en ventas | $3.000.000 |
+| Total beneficios año 1 | $11.300.000 |
+
+A partir del segundo año los beneficios crecen un 8% anual, acompañando la mayor
+adopción del sistema y la mejora progresiva en la gestión. La proyección a cinco
+años queda de la siguiente manera:
+
+| Año | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Beneficios | $11.300.000 | $12.204.000 | $13.180.320 | $14.234.746 | $15.373.525 |
+
+### 8.5 Flujo de fondos del proyecto
+
+Con la inversión inicial, los costos operativos y los beneficios proyectados se
+arma el flujo de fondos. El año 0 recoge la inversión y, de los años 1 a 5, el
+flujo neto es la diferencia entre los beneficios del período y los costos
+operativos:
+
+| Concepto | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
+|---|---|---|---|---|---|---|
+| Inversión inicial | -$12.000.000 | — | — | — | — | — |
+| Beneficios | — | $11.300.000 | $12.204.000 | $13.180.320 | $14.234.746 | $15.373.525 |
+| Costos operativos | — | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 |
+| Flujo neto | -$12.000.000 | $6.200.000 | $7.104.000 | $8.080.320 | $9.134.746 | $10.273.525 |
+
+El flujo neto es positivo desde el primer año y crece a lo largo del horizonte,
+lo que muestra que, una vez superada la inversión inicial, el proyecto genera
+fondos de manera sostenida.
+
+### 8.6 Indicadores económico-financieros
+
+A partir del flujo de fondos se calcularon los principales indicadores de
+evaluación, usando la tasa de descuento del 25%:
+
+| Indicador | Resultado |
+|---|---|
+| VAN (Valor Actual Neto) | $8.751.704 |
+| TIR (Tasa Interna de Retorno) | 54,2% |
+| Payback simple | 1,82 años (aprox. 1 año y 10 meses) |
+| Payback descontado | 2,60 años (aprox. 2 años y 7 meses) |
+
+El VAN es positivo, lo que indica que el proyecto genera valor por encima de lo
+que la empresa le exige al capital invertido. La TIR del 54,2% se ubica bastante
+por encima de la tasa de descuento del 25%, lo que refuerza la conveniencia de
+llevar adelante la inversión. El payback muestra que la inversión inicial se
+recupera en menos de dos años en términos nominales, y en algo más de dos años y
+medio si se considera el valor del dinero en el tiempo.
+
+La lectura de estos resultados y la decisión final sobre el proyecto se
+desarrollan en la Sección 9. El modelo completo, con la proyección de
+beneficios, el flujo de fondos, los indicadores y un análisis de sensibilidad,
+se encuentra en el archivo `Análisis económico y financiero - SIGC.xlsx`
+adjunto en los anexos.
 
 ## 9. Evaluación del proyecto
 
