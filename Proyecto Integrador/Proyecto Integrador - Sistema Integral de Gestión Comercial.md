@@ -762,7 +762,56 @@ inversión que mejora la operación del negocio y genera valor para la empresa.
 
 ## 11. Bibliografía
 
-*(Pendiente)*
+Para la elaboración del trabajo se utilizaron principalmente los materiales de
+la cátedra Sistemas de Gestión (UTN, Facultad Regional San Rafael, ciclo lectivo
+2026), tanto los documentos del proyecto integrador como los apuntes y
+presentaciones de las clases. A continuación se detallan las fuentes consultadas.
+
+### Documentos del proyecto integrador
+
+- Cátedra Sistemas de Gestión (2026). Práctica integradora guiada con caso
+  provisto por la cátedra. UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Plantilla orientativa de entrega del
+  proyecto integrador. UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Criterios generales de evaluación del
+  proyecto. UTN, Facultad Regional San Rafael.
+
+### Material teórico de la cátedra
+
+- Cátedra Sistemas de Gestión (2026). Fundamentos de formulación y evaluación de
+  proyectos (Clase 1). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Gestión de proyectos (Clase 2). UTN,
+  Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Formulación estratégica de proyectos
+  (Clase 3). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Formulación aplicada de proyectos de
+  inversión (Clase 4). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Fundamentos económico-contables para la
+  formulación de proyectos de sistemas (Clases 5 y 6). UTN, Facultad Regional
+  San Rafael.
+- Cátedra Sistemas de Gestión (2026). Evaluación financiera de proyectos: el
+  valor del dinero y criterios de rentabilidad (Clase 7). UTN, Facultad Regional
+  San Rafael.
+- Cátedra Sistemas de Gestión (2026). Formulación estratégica de proyectos de
+  sistemas: entorno, mercado y propuesta de valor (Clase 9). UTN, Facultad
+  Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Estrategia comercial y canales de venta en
+  proyectos de TI (Clase 11). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). De la formulación estratégica al flujo de
+  fondos evaluable (Clase 13). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). El tamiz financiero: la tasa de descuento y
+  los modelos CAPM y WACC (Clase 14). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Evaluación económica de proyectos de TI:
+  flujos de fondos y criterios de decisión (Clase 15). UTN, Facultad Regional
+  San Rafael.
+- Cátedra Sistemas de Gestión (2026). Integración de la evaluación económica: del
+  modelo financiero a la decisión estratégica (Clase 16). UTN, Facultad Regional
+  San Rafael.
+- Cátedra Sistemas de Gestión (2026). Financiamiento de proyectos y análisis de
+  riesgo (Clase 17). UTN, Facultad Regional San Rafael.
+- Cátedra Sistemas de Gestión (2026). Comunicación, negociación y toma de
+  decisiones en la ingeniería de gestión (Clase 18). UTN, Facultad Regional San
+  Rafael.
 
 ## 12. Anexos
 
