@@ -590,7 +590,129 @@ adjunto en los anexos.
 
 ## 9. Evaluación del proyecto
 
-*(Pendiente)*
+En esta sección se analiza la conveniencia de llevar adelante el proyecto a
+partir de los datos económicos de la Sección 8. La idea es interpretar los
+resultados, ponerlos a prueba frente a distintos escenarios y llegar a una
+conclusión fundamentada sobre la viabilidad del SIGC, usando las herramientas de
+evaluación trabajadas en la materia.
+
+### 9.1 Criterios de evaluación utilizados
+
+Para evaluar el proyecto se recurrió a los criterios habituales de la evaluación
+de proyectos de inversión:
+
+- El Valor Actual Neto (VAN), que mide cuánto valor genera el proyecto por
+  encima de la tasa exigida, trayendo todos los flujos a valor presente.
+- La Tasa Interna de Retorno (TIR), que indica la rentabilidad propia del
+  proyecto y se compara contra la tasa de descuento del 25%.
+- El período de recupero (payback), simple y descontado, que muestra en cuánto
+  tiempo se recupera la inversión inicial.
+- La relación beneficio-costo, que compara el valor presente de los beneficios
+  con el de la inversión y los costos.
+
+Todos se aplicaron sobre el flujo de fondos a cinco años, con la tasa de
+descuento del 25% indicada en el caso.
+
+### 9.2 Análisis costo-beneficio
+
+Si se llevan a valor presente los beneficios y los costos del proyecto a la tasa
+del 25%, se obtiene el siguiente cuadro:
+
+| Componente | Valor presente |
+|---|---|
+| Beneficios | $34.467.032 |
+| Inversión inicial más costos operativos | $25.715.328 |
+| Relación beneficio-costo | 1,34 |
+
+La relación beneficio-costo de 1,34 significa que, por cada peso que la empresa
+destina al proyecto en valor presente, recupera 1,34 pesos en beneficios. Al ser
+mayor que 1, el proyecto se justifica desde lo económico.
+
+### 9.3 Interpretación de los indicadores
+
+Los indicadores calculados en la Sección 8 se interpretan de la siguiente
+manera:
+
+| Indicador | Resultado | Lectura |
+|---|---|---|
+| VAN (25%) | $8.751.704 | Es positivo, por lo que el proyecto agrega valor por encima de la tasa exigida. |
+| TIR | 54,2% | Más que duplica la tasa de descuento del 25%, lo que indica un buen margen de rentabilidad. |
+| Payback simple | 1,82 años | La inversión se recupera en términos nominales durante el segundo año. |
+| Payback descontado | 2,60 años | Considerando el valor del dinero en el tiempo, el recupero se da pasada la mitad del horizonte. |
+
+Los cuatro indicadores apuntan en la misma dirección: el proyecto es conveniente.
+El VAN positivo y la TIR muy por encima de la tasa de corte muestran que la
+inversión rinde bastante más de lo que la empresa le exige, y el recupero se da
+dentro de los primeros años del horizonte de cinco.
+
+### 9.4 Comparación de escenarios y sensibilidad
+
+Como los resultados se apoyan en estimaciones, conviene ver cuán sensibles son a
+cambios en los supuestos. Se trabajaron dos análisis, que también están
+desarrollados en el archivo `Análisis económico y financiero - SIGC.xlsx`.
+
+El primero observa cómo cambia el VAN si se modifica la tasa de descuento:
+
+| Tasa de descuento | VAN |
+|---|---|
+| 15% | $14.406.469 |
+| 20% | $11.310.070 |
+| 25% (caso base) | $8.751.704 |
+| 30% | $6.615.956 |
+| 35% | $4.816.034 |
+| 40% | $3.285.836 |
+
+El VAN se mantiene positivo incluso con una tasa del 40%, lo que muestra que el
+proyecto resiste exigencias de rentabilidad bastante mayores a la planteada.
+
+El segundo análisis observa qué pasa si los beneficios estimados resultan
+mayores o menores a los previstos, manteniendo la tasa en 25%:
+
+| Escenario | VAN |
+|---|---|
+| Beneficios -20% | $1.858.298 |
+| Beneficios -10% | $5.305.001 |
+| Base (100%) | $8.751.704 |
+| Beneficios +10% | $12.198.408 |
+| Beneficios +20% | $15.645.111 |
+
+Aun en el escenario más desfavorable, con beneficios un 20% por debajo de lo
+estimado, el VAN sigue siendo positivo. Esto le da robustez a la conclusión: el
+proyecto convendría incluso si las estimaciones de beneficios resultaran algo
+optimistas.
+
+### 9.5 Análisis de riesgo
+
+Más allá de los números, conviene tener presentes los riesgos que podrían
+afectar el resultado:
+
+- Que los beneficios estimados tarden más en concretarse, sobre todo el ahorro
+  de horas administrativas y la mejora en ventas, que dependen de la adopción
+  del sistema por parte del personal.
+- Que la implementación se demore o cueste más de lo previsto; para esto la
+  inversión inicial ya contempla un rubro de contingencia de $1.200.000.
+- Que aparezca resistencia al cambio en el uso de la nueva herramienta, lo que
+  refuerza la importancia de la capacitación y del acompañamiento de la
+  dirección señalados en la Sección 7.
+- La dependencia del proveedor del sistema para el soporte y el mantenimiento,
+  que está cubierta por el contrato anual incluido en los costos operativos.
+
+El análisis de sensibilidad muestra que, aun considerando estos riesgos, el
+proyecto mantiene un margen amplio antes de dejar de ser conveniente.
+
+### 9.6 Conclusión de la evaluación
+
+A partir de los criterios aplicados, la evaluación es favorable. El proyecto
+presenta un VAN positivo de $8.751.704, una TIR del 54,2% muy superior a la tasa
+de descuento del 25%, un recupero de la inversión dentro de los primeros años y
+una relación beneficio-costo de 1,34. Los análisis de sensibilidad confirman que
+estos resultados se sostienen frente a tasas más altas y a beneficios menores a
+los estimados.
+
+Por todo esto, se considera que la implementación del SIGC es económicamente
+viable y conveniente para la empresa, y se recomienda llevarla adelante
+acompañando la inversión con la capacitación y el seguimiento necesarios para
+que los beneficios proyectados se concreten.
 
 ## 10. Conclusiones
 
