@@ -36,6 +36,19 @@ Se completa **sección por sección** siguiendo las 12 secciones de la plantilla
 orientativa. No crear archivos sueltos por sección ni duplicar el documento; al
 finalizar se exportará a Word/PDF para la entrega.
 
+Estado: las 12 secciones están redactadas (borrador completo). Archivos
+asociados en `Proyecto Integrador/`:
+- `Análisis económico y financiero - SIGC.xlsx`: modelo financiero con fórmulas
+  vivas (supuestos, inversión, costos, beneficios, flujo de fondos, indicadores
+  y sensibilidad). Es el anexo de las secciones 8 y 9.
+- `Proyecto Integrador - Sistema Integral de Gestión Comercial.docx`: export a
+  Word del documento, generado con pandoc.
+
+Para regenerar el Word a partir del Markdown (pandoc instalado vía winget,
+`JohnMacFarlane.Pandoc`):
+`pandoc "<archivo>.md" -o "<archivo>.docx" --from gfm --resource-path "Proyecto Integrador"`.
+Si se cambia el .md, volver a exportar para mantener el .docx sincronizado.
+
 ## Estructura del repo
 
 ```
