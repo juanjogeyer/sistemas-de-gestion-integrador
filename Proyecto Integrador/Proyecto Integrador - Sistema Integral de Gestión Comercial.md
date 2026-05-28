@@ -815,4 +815,41 @@ presentaciones de las clases. A continuación se detallan las fuentes consultada
 
 ## 12. Anexos
 
-*(Pendiente)*
+Como material complementario del trabajo se incluye el modelo económico y
+financiero completo, que sirvió de base para las secciones 8 y 9.
+
+### Anexo I — Modelo económico y financiero (planilla)
+
+Archivo: `Análisis económico y financiero - SIGC.xlsx`.
+
+La planilla contiene el desarrollo completo de los cálculos, con fórmulas que se
+recalculan al abrir el archivo. Está organizada en las siguientes hojas:
+
+- Supuestos: tasa de descuento, horizonte de evaluación, crecimiento de los
+  beneficios y totales de inversión, costos y beneficios.
+- Inversión: detalle de la inversión inicial por concepto.
+- Costos: detalle de los costos operativos anuales por concepto.
+- Beneficios: beneficios del primer año por concepto y su proyección a cinco
+  años con el crecimiento anual del 8%.
+- Flujo de fondos: flujo neto, flujo descontado y flujos acumulados año por año,
+  junto con los indicadores VAN, TIR y payback.
+- Sensibilidad: variación del VAN según la tasa de descuento y según el nivel de
+  beneficios.
+
+### Anexo II — Resumen de resultados
+
+A modo de síntesis, los principales resultados de la evaluación son:
+
+| Indicador | Resultado |
+|---|---|
+| Inversión inicial | $12.000.000 |
+| Costos operativos anuales | $5.100.000 |
+| Beneficios año 1 | $11.300.000 |
+| VAN (25%) | $8.751.704 |
+| TIR | 54,2% |
+| Payback simple | 1,82 años |
+| Payback descontado | 2,60 años |
+| Relación beneficio-costo | 1,34 |
+
+Los cuadros de inversión, costos, beneficios, flujo de fondos y sensibilidad
+desarrollados en las secciones 8 y 9 surgen de esta misma planilla.
