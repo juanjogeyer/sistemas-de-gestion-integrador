@@ -716,7 +716,49 @@ que los beneficios proyectados se concreten.
 
 ## 10. Conclusiones
 
-*(Pendiente)*
+A lo largo del trabajo se analizó la propuesta de implementar un Sistema
+Integral de Gestión Comercial y un tablero de control en una PyME comercial con
+dos sucursales. El punto de partida fue una situación en la que la información
+estaba dispersa en planillas separadas, el stock se controlaba de forma manual y
+los reportes se armaban a mano, lo que generaba errores, demoras y dificultades
+para tomar decisiones. A partir de ese problema se definió el proyecto, se
+describió su alcance, se analizó el contexto en el que se inserta y se evaluaron
+sus aspectos técnicos, organizacionales y económicos.
+
+Del análisis técnico y organizacional surge que la propuesta es realizable con
+los recursos habituales de una PyME que se digitaliza: un sistema contratado
+bajo licencia, hosting en la nube, equipamiento para las sucursales y el
+acompañamiento del proveedor para la configuración, la migración y la
+capacitación. No requiere infraestructura compleja ni desarrollos propios, pero
+sí supone cambios en la forma de trabajo y la designación de un referente
+interno que coordine con el proveedor.
+
+Desde lo económico, la evaluación resultó favorable. Con una inversión inicial
+de $12.000.000, costos operativos de $5.100.000 anuales y beneficios que parten
+de $11.300.000 en el primer año, el proyecto muestra un VAN positivo de
+$8.751.704, una TIR del 54,2% muy por encima de la tasa de descuento del 25% y
+un recupero de la inversión dentro de los primeros años. La relación
+beneficio-costo de 1,34 y los análisis de sensibilidad refuerzan esa conclusión,
+ya que el VAN se mantiene positivo aun con tasas más altas o con beneficios
+menores a los estimados.
+
+Por todo esto se concluye que el proyecto es viable y conveniente. De todos
+modos, su éxito depende de algunas condiciones: acompañar la implementación con
+una capacitación adecuada, sostener el compromiso de la dirección durante la
+puesta en marcha, mantener disciplina en la carga de la información para que el
+sistema sea una única fuente confiable y respetar las etapas de implementación
+propuestas, idealmente con un piloto en una sucursal antes de extender el uso a
+la otra.
+
+Como aporte principal, la propuesta ordena la gestión comercial de la empresa,
+centraliza la información de las dos sucursales y le da a la dirección un tablero
+de control para decidir con datos. Entre las limitaciones, hay que tener
+presente que tanto los beneficios como los costos son estimaciones basadas en el
+caso provisto, que los beneficios dependen en buena medida de la adopción del
+sistema por parte del personal y que el análisis se realizó sin considerar
+inflación, por lo que en una aplicación real esos valores deberían revisarse y
+actualizarse. Con esos recaudos, la implementación del SIGC se presenta como una
+inversión que mejora la operación del negocio y genera valor para la empresa.
 
 ## 11. Bibliografía
 
