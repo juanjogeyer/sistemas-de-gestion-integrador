@@ -1,8 +1,7 @@
-# Proyecto Integrador — Sistema Integral de Gestión Comercial
+# Proyecto Integrador: Sistema Integral de Gestión Comercial
 
-> **Documento en elaboración.** Se desarrolla sección por sección siguiendo la
-> *Plantilla orientativa de entrega del proyecto integrador* de la cátedra
-> (12 secciones). Al finalizar se exportará a Word/PDF para la entrega.
+> Documento elaborado siguiendo la *Plantilla orientativa de entrega del
+> proyecto integrador* de la cátedra (12 secciones).
 
 ---
 
@@ -65,7 +64,7 @@ Cátedra: **Sistemas de Gestión**
 
 ## 3. Introducción
 
-El presente trabajo constituye el Proyecto Integrador de la cátedra Sistemas de
+El presente trabajo es el Proyecto Integrador de la cátedra Sistemas de
 Gestión, correspondiente al quinto año de la carrera Ingeniería en Sistemas de
 Información de la Universidad Tecnológica Nacional, Facultad Regional San Rafael.
 Su finalidad es aplicar, sobre un caso concreto, los contenidos vistos durante
@@ -89,9 +88,9 @@ construye el flujo de fondos del proyecto, se calculan el Valor Actual Neto
 se evalúa una alternativa de financiamiento, todo lo cual conduce a una
 recomendación final.
 
-El trabajo no se limita a presentar números, sino que apunta a mostrar el
-razonamiento técnico, organizacional y financiero detrás de la decisión de
-invertir, integrando los contenidos vistos durante la cursada.
+Además de presentar números, el trabajo busca mostrar el razonamiento técnico,
+organizacional y financiero que hay detrás de la decisión de invertir, y así
+integrar los contenidos vistos durante la cursada.
 
 ## 4. Presentación del problema u oportunidad
 
@@ -100,8 +99,8 @@ invertir, integrando los contenidos vistos durante la cursada.
 La organización sobre la que se desarrolla el proyecto es una pequeña y mediana
 empresa (PyME) del sector comercial, dedicada a la comercialización de productos
 a través de dos sucursales y de un canal de venta no presencial mediante
-WhatsApp y correo electrónico. Su operatoria diaria —la gestión de pedidos, del
-stock, de los clientes y de los reportes— se sostiene con planillas de cálculo
+WhatsApp y correo electrónico. Su operatoria diaria (la gestión de pedidos, del
+stock, de los clientes y de los reportes) se sostiene con planillas de cálculo
 y registros manuales, sin un sistema de información que integre esas tareas.
 
 Este esquema resultó suficiente en las etapas iniciales de la empresa, pero a
@@ -164,9 +163,9 @@ oportunidad de mejora orientada a:
   toma de decisiones;
 - sentar una base ordenada para el crecimiento futuro de la empresa.
 
-En resumen, el proyecto que se origina a partir de esta situación no es sólo
-tecnológico: apunta a mejorar la eficiencia, el control y la capacidad de
-gestión del negocio.
+El proyecto que se origina a partir de esta situación tiene un alcance que va
+más allá de lo tecnológico: busca mejorar la eficiencia, el control y la
+capacidad de gestión del negocio.
 
 ## 5. Descripción general del proyecto
 
@@ -218,8 +217,8 @@ oportuna y confiable para la toma de decisiones.
    ventas.
 5. Generar reportes comerciales y un tablero de control con indicadores que
    ayuden a la gerencia a tomar decisiones.
-6. Reducir la dependencia de tareas manuales repetitivas, liberando tiempo del
-   personal para tareas de mayor valor.
+6. Reducir la dependencia de tareas manuales repetitivas, para liberar tiempo
+   del personal y destinarlo a tareas de mayor valor.
 7. Asegurar la adopción del sistema mediante la migración de los datos
    existentes y la capacitación de los usuarios.
 
@@ -270,8 +269,8 @@ La empresa es una PyME del sector comercial que opera con dos sucursales y vende
 tanto de forma presencial como a través de WhatsApp y correo electrónico. Es una
 organización de estructura reducida, en la que pueden distinguirse tres grupos
 de trabajo: el personal de ventas y atención de cada sucursal, el personal
-administrativo —encargado de la facturación, el control de stock y los
-reportes— y la dirección o gerencia, que concentra la toma de decisiones.
+administrativo (encargado de la facturación, el control de stock y los
+reportes) y la dirección o gerencia, que concentra la toma de decisiones.
 
 La gestión se apoya hoy en planillas de cálculo y registros manuales, una forma
 de trabajo a la que el personal está habituado. La incorporación del SIGC
@@ -287,8 +286,8 @@ El proyecto se desarrolla dentro de la empresa y no depende de manera directa de
 factores externos como regulaciones o trámites especiales. De todos modos,
 algunos elementos del entorno resultan relevantes:
 
-- Entorno tecnológico: las herramientas necesarias para el proyecto —sistemas de
-  gestión comercial, servicios de hosting, lectores de código de barras— son
+- Entorno tecnológico: las herramientas necesarias para el proyecto (sistemas de
+  gestión comercial, servicios de hosting, lectores de código de barras) son
   tecnologías maduras, disponibles en el mercado y de costo accesible para una
   PyME. Esto hace que la propuesta sea técnicamente realizable sin necesidad de
   desarrollos complejos a medida.
@@ -353,9 +352,9 @@ algunas condiciones:
 - El mantenimiento de la operación durante la implementación, para no
   interrumpir la atención a los clientes.
 
-En su mayoría, estas condiciones se presentan de manera favorable —en particular
-el respaldo de la dirección—, lo que sustenta la viabilidad y la pertinencia de
-avanzar con la propuesta.
+En su mayoría, estas condiciones se presentan de manera favorable, en particular
+el respaldo de la dirección, lo que respalda la decisión de avanzar con la
+propuesta.
 
 ## 7. Análisis técnico y organizacional
 
@@ -465,11 +464,10 @@ luego de la primera etapa de uso.
 
 ## 8. Análisis económico y financiero
 
-En esta sección se ordenan los números del proyecto: cuánto cuesta poner en
-marcha el SIGC, cuánto cuesta mantenerlo cada año, qué beneficios económicos se
-esperan y cómo queda el flujo de fondos a lo largo del horizonte de evaluación.
-Todos los montos surgen del caso provisto por la cátedra y están expresados en
-pesos. El detalle completo, con las fórmulas y los cálculos, se acompaña en el
+Esta sección reúne los números del proyecto: cuánto cuesta poner en marcha el
+SIGC, cuánto cuesta mantenerlo cada año, qué beneficios se esperan y cómo queda
+el flujo de fondos en el horizonte de evaluación. Todos los montos surgen del
+caso provisto por la cátedra y están expresados en pesos. El detalle completo, con las fórmulas y los cálculos, se acompaña en el
 archivo `Análisis económico y financiero - SIGC.xlsx` que se incluye en los
 anexos (Sección 12).
 
@@ -537,9 +535,9 @@ sistema. Para el primer año se estiman en $11.300.000, repartidos así:
 | Margen adicional por mejora en ventas | $3.000.000 |
 | Total beneficios año 1 | $11.300.000 |
 
-A partir del segundo año los beneficios crecen un 8% anual, acompañando la mayor
-adopción del sistema y la mejora progresiva en la gestión. La proyección a cinco
-años queda de la siguiente manera:
+A partir del segundo año los beneficios crecen un 8% anual. Ese crecimiento
+acompaña la mayor adopción del sistema y la mejora progresiva en la gestión. La
+proyección a cinco años queda de la siguiente manera:
 
 | Año | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
@@ -554,9 +552,9 @@ operativos:
 
 | Concepto | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
 |---|---|---|---|---|---|---|
-| Inversión inicial | -$12.000.000 | — | — | — | — | — |
-| Beneficios | — | $11.300.000 | $12.204.000 | $13.180.320 | $14.234.746 | $15.373.525 |
-| Costos operativos | — | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 |
+| Inversión inicial | -$12.000.000 | $0 | $0 | $0 | $0 | $0 |
+| Beneficios | $0 | $11.300.000 | $12.204.000 | $13.180.320 | $14.234.746 | $15.373.525 |
+| Costos operativos | $0 | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 | -$5.100.000 |
 | Flujo neto | -$12.000.000 | $6.200.000 | $7.104.000 | $8.080.320 | $9.134.746 | $10.273.525 |
 
 El flujo neto es positivo desde el primer año y crece a lo largo del horizonte,
@@ -590,11 +588,11 @@ adjunto en los anexos.
 
 ## 9. Evaluación del proyecto
 
-En esta sección se analiza la conveniencia de llevar adelante el proyecto a
-partir de los datos económicos de la Sección 8. La idea es interpretar los
-resultados, ponerlos a prueba frente a distintos escenarios y llegar a una
-conclusión fundamentada sobre la viabilidad del SIGC, usando las herramientas de
-evaluación trabajadas en la materia.
+Esta sección analiza la conveniencia de llevar adelante el proyecto a partir de
+los datos económicos de la Sección 8. Se interpretan los resultados, se los pone
+a prueba frente a distintos escenarios y se llega a una conclusión fundamentada
+sobre la viabilidad del SIGC, con las herramientas de evaluación vistas en la
+materia.
 
 ### 9.1 Criterios de evaluación utilizados
 
@@ -818,7 +816,7 @@ presentaciones de las clases. A continuación se detallan las fuentes consultada
 Como material complementario del trabajo se incluye el modelo económico y
 financiero completo, que sirvió de base para las secciones 8 y 9.
 
-### Anexo I — Modelo económico y financiero (planilla)
+### Anexo I: Modelo económico y financiero (planilla)
 
 Archivo: `Análisis económico y financiero - SIGC.xlsx`.
 
@@ -836,7 +834,7 @@ recalculan al abrir el archivo. Está organizada en las siguientes hojas:
 - Sensibilidad: variación del VAN según la tasa de descuento y según el nivel de
   beneficios.
 
-### Anexo II — Resumen de resultados
+### Anexo II: Resumen de resultados
 
 A modo de síntesis, los principales resultados de la evaluación son:
 
