@@ -645,8 +645,6 @@ dentro de los primeros años del horizonte de cinco.
 
 ### 9.4 Análisis de financiamiento
 
-#### Por qué conviene financiar con deuda
-
 La TIR del proyecto en su versión pura es del 54,2%, valor que supera el costo
 de la deuda disponible del 41% anual. Eso significa que el proyecto genera una
 rentabilidad mayor al costo de endeudarse: cada peso solicitado al 41% rinde el
@@ -661,8 +659,6 @@ bancario:
 | Capital propio | $3.600.000 | 30% |
 | Préstamo bancario (41% anual, 5 años) | $8.400.000 | 70% |
 | Total inversión inicial | $12.000.000 | 100% |
-
-#### Elección del sistema de amortización: Francés vs. Alemán
 
 Con un préstamo de $8.400.000 al 41% anual a 5 años, ambos sistemas generan
 flujos positivos durante todo el horizonte. La diferencia está en cómo
@@ -682,13 +678,10 @@ ajustando sus procesos, la cuota fija del sistema francés ofrece una ventaja
 concreta: permite planificar el flujo de caja con certeza y deja un margen libre
 de $2.002.577 en el año 1, frente a los $1.076.000 del sistema alemán. Ese mayor
 colchón de caja en el período de mayor incertidumbre operativa justifica la
-elección.
+elección del sistema francés.
 
-Se adopta, por lo tanto, el **sistema francés** como método de amortización.
-
-#### Tabla de amortización — sistema francés
-
-Préstamo: $8.400.000 al 41% anual, 5 cuotas anuales iguales de $4.197.423.
+La tabla de amortización correspondiente, con una cuota anual fija de $4.197.423,
+es la siguiente:
 
 | Año | Saldo inicial | Interés | Amortización | Cuota | Saldo final |
 |---|---|---|---|---|---|
@@ -702,11 +695,9 @@ El interés decrece cada año porque la amortización crece: en los primeros añ
 la mayor parte de la cuota son intereses; hacia el final, la mayor parte es
 devolución de capital.
 
-#### Flujo del inversor y rentabilidad sobre el capital propio
-
-El inversor aporta $3.600.000 de capital propio en el año 0. El préstamo cubre
-los $8.400.000 restantes. A partir de allí, el flujo que le queda al inversor
-es la diferencia entre el flujo neto del proyecto y el servicio de deuda anual:
+Con el préstamo en sistema francés, el inversor aporta $3.600.000 de capital
+propio en el año 0 y a partir de allí recibe los flujos netos después del
+servicio de deuda:
 
 | Concepto | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
 |---|---|---|---|---|---|---|
@@ -737,16 +728,12 @@ Para evaluar la solidez de los resultados se construyeron tres escenarios
 adversos y uno favorable, cada uno basado en un riesgo o una oportunidad
 concreta del proyecto.
 
-#### Escenario 1 (negativo): adopción lenta del sistema
-
-**Por qué puede ocurrir.** Las implementaciones de sistemas en PyMEs suelen
-encontrar resistencia del personal, que continúa usando las planillas en paralelo
-o demora la carga de la información. En ese caso los beneficios esperados —ahorro
-de tiempo administrativo, reducción de errores, mejora en ventas— tardan en
-materializarse.
-
-**Supuesto modificado.** Los beneficios del año 1 se reducen al 50% y los del
-año 2 al 70%; a partir del año 3 se recuperan los niveles del caso base.
+Escenario adverso 1: adopción lenta del sistema. Las implementaciones de
+sistemas en PyMEs suelen encontrar resistencia del personal, que continúa usando
+las planillas en paralelo o demora la carga de la información. En ese caso los
+beneficios esperados tardan en materializarse. Este escenario supone que los
+beneficios del año 1 se reducen al 50% y los del año 2 al 70%; a partir del año
+3 se recuperan los niveles del caso base.
 
 | Año | Flujo neto |
 |---|---|
@@ -757,36 +744,25 @@ año 2 al 70%; a partir del año 3 se recuperan los niveles del caso base.
 | 4 | $9.134.746 |
 | 5 | $10.273.525 |
 
-**VAN (25%): $1.888.060.** El proyecto sigue siendo viable, aunque con un VAN
-muy reducido. La conclusión principal es que la capacitación y el acompañamiento
-durante la puesta en marcha no son gastos secundarios: sin adopción efectiva del
-sistema, el proyecto apenas cubre la inversión.
+El VAN resultante es $1.888.060. El proyecto sigue siendo viable, aunque con un
+VAN muy reducido. La conclusión principal es que la capacitación y el
+acompañamiento durante la puesta en marcha no son gastos secundarios: sin
+adopción efectiva del sistema, el proyecto apenas cubre la inversión.
 
-#### Escenario 2 (negativo): sobrecosto de implementación
+Escenario adverso 2: sobrecosto de implementación. Las implementaciones de
+sistemas suelen exceder el presupuesto inicial por causas como la complejidad no
+prevista de la migración de datos, renegociaciones con el proveedor o la
+necesidad de ajustes fuera del alcance original. En este escenario la
+contingencia de $1.200.000 ya incluida se agota y la inversión total termina
+siendo un 25% mayor a lo proyectado, subiendo de $12.000.000 a $15.000.000. Los
+flujos operativos de los años 1 a 5 no cambian. El VAN resultante es $5.751.704.
+Aun con un sobrecosto del 25%, el proyecto continúa siendo rentable.
 
-**Por qué puede ocurrir.** Las implementaciones de sistemas suelen exceder el
-presupuesto inicial por causas como la complejidad no prevista de la migración
-de datos, renegociaciones con el proveedor o la necesidad de ajustes fuera del
-alcance original. En este escenario la contingencia de $1.200.000 ya incluida se
-agota y la inversión total termina siendo un 25% mayor a lo proyectado.
-
-**Supuesto modificado.** La inversión inicial sube de $12.000.000 a $15.000.000
-(incremento de $3.000.000 en el año 0). Los flujos operativos de los años 1 a 5
-no cambian.
-
-**VAN (25%): $5.751.704.** Aun con un sobrecosto del 25%, el proyecto continúa
-siendo rentable. El margen del VAN base absorbe el incremento de inversión sin
-que la conveniencia se revierta.
-
-#### Escenario 3 (negativo): caída sostenida de los beneficios
-
-**Por qué puede ocurrir.** El contexto comercial de la empresa puede
-deteriorarse —pérdida de clientes clave, entrada de un competidor fuerte,
-reducción del volumen de operaciones— o los beneficios pueden haber sido
-estimados de forma optimista. Este escenario supone que los beneficios resultan
-un 25% menores en todos los años del horizonte, sin recuperación.
-
-**Supuesto modificado.** Todos los beneficios se reducen un 25%.
+Escenario adverso 3: caída sostenida de los beneficios. El contexto comercial
+de la empresa puede deteriorarse —pérdida de clientes clave, entrada de un
+competidor fuerte, reducción del volumen de operaciones— o los beneficios pueden
+haber sido estimados de forma optimista. Este escenario supone que los beneficios
+resultan un 25% menores en todos los años del horizonte, sin recuperación.
 
 | Año | Flujo neto |
 |---|---|
@@ -797,23 +773,18 @@ un 25% menores en todos los años del horizonte, sin recuperación.
 | 4 | $5.576.060 |
 | 5 | $6.430.144 |
 
-**VAN (25%): $134.960.** Este es el escenario umbral: con una caída del 25%
-en los beneficios el proyecto queda en el límite de la viabilidad. Cualquier
+El VAN resultante es $134.960. Este es el escenario umbral: con una caída del
+25% en los beneficios el proyecto queda en el límite de la viabilidad. Cualquier
 reducción adicional lo vuelve inviable, lo que indica que los beneficios son la
-variable más sensible del modelo y que sus estimaciones merecen revisarse con
-cuidado antes de tomar la decisión final.
+variable más sensible del modelo.
 
-#### Escenario 4 (positivo): crecimiento comercial apoyado en el tablero de control
-
-**Por qué puede ocurrir.** Una vez adoptado el sistema, el tablero de control
-provee a la gerencia información que antes no tenía disponible: qué productos
-tienen mayor margen, qué clientes generan más negocio, qué sucursal rinde mejor.
-Con esa visibilidad, es razonable que la empresa tome decisiones comerciales más
-acertadas y crezca más rápido que lo estimado. Este escenario eleva la tasa de
-crecimiento anual de los beneficios del 8% al 12% a partir del segundo año.
-
-**Supuesto modificado.** Los beneficios crecen un 12% anual desde el año 2 (en
-lugar del 8% del caso base). El año 1 permanece igual.
+Escenario favorable: crecimiento comercial apoyado en el tablero de control. Una
+vez adoptado el sistema, el tablero de control provee a la gerencia información
+que antes no tenía disponible: qué productos tienen mayor margen, qué clientes
+generan más negocio, qué sucursal rinde mejor. Con esa visibilidad, es razonable
+que la empresa tome decisiones comerciales más acertadas y crezca más rápido que
+lo estimado. Este escenario eleva la tasa de crecimiento anual de los beneficios
+del 8% al 12% a partir del segundo año.
 
 | Año | Beneficios | Flujo neto |
 |---|---|---|
@@ -823,13 +794,10 @@ lugar del 8% del caso base). El año 1 permanece igual.
 | 4 | $15.875.686 | $10.775.686 |
 | 5 | $17.780.769 | $12.680.769 |
 
-**VAN (25%): $11.011.129.** El VAN crece un 26% respecto del caso base, pasando
-de $8,75M a $11M. Este resultado no requiere condiciones extraordinarias: solo
-que el tablero de control cumpla la función para la que fue diseñado y que la
-gerencia aproveche la información disponible para tomar mejores decisiones
-comerciales.
-
-#### Resumen de escenarios
+El VAN resultante es $11.011.129. Este resultado no requiere condiciones
+extraordinarias: solo que el tablero de control cumpla la función para la que
+fue diseñado y que la gerencia aproveche la información disponible para tomar
+mejores decisiones comerciales.
 
 | Escenario | Variable modificada | VAN resultante | Variación vs. base |
 |---|---|---|---|
