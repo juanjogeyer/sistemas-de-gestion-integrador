@@ -643,43 +643,209 @@ El VAN positivo y la TIR muy por encima de la tasa de corte muestran que la
 inversión rinde bastante más de lo que la empresa le exige, y el recupero se da
 dentro de los primeros años del horizonte de cinco.
 
-### 9.4 Comparación de escenarios y sensibilidad
+### 9.4 Análisis de financiamiento
 
-Como los resultados se apoyan en estimaciones, conviene ver cuán sensibles son a
-cambios en los supuestos. Se trabajaron dos análisis, que también están
-desarrollados en el archivo `Análisis económico y financiero - SIGC.xlsx`.
+#### Por qué conviene financiar con deuda
 
-El primero observa cómo cambia el VAN si se modifica la tasa de descuento:
+La TIR del proyecto en su versión pura es del 54,2%, valor que supera el costo
+de la deuda disponible del 41% anual. Eso significa que el proyecto genera una
+rentabilidad mayor al costo de endeudarse: cada peso solicitado al 41% rinde el
+54,2%, lo que deja un diferencial positivo para el inversor. A este mecanismo se
+lo denomina apalancamiento financiero positivo.
 
-| Tasa de descuento | VAN |
+La estructura de financiamiento propuesta combina capital propio con un préstamo
+bancario:
+
+| Fuente | Monto | Participación |
+|---|---|---|
+| Capital propio | $3.600.000 | 30% |
+| Préstamo bancario (41% anual, 5 años) | $8.400.000 | 70% |
+| Total inversión inicial | $12.000.000 | 100% |
+
+#### Elección del sistema de amortización: Francés vs. Alemán
+
+Con un préstamo de $8.400.000 al 41% anual a 5 años, ambos sistemas generan
+flujos positivos durante todo el horizonte. La diferencia está en cómo
+distribuyen los pagos y cuánto interés total se paga:
+
+| Criterio | Sistema Francés | Sistema Alemán |
+|---|---|---|
+| Cuota | Fija: $4.197.423/año | Decreciente: de $5.124.000 a $2.368.800 |
+| Interés total pagado | $12.583.540 | $10.332.000 |
+| Flujo libre año 1 (después del servicio de deuda) | $2.002.577 | $1.076.000 |
+| VAN del inversor (25%) | $5.863.332 | $6.267.319 |
+
+El sistema alemán paga $2.251.540 menos en intereses y arroja un VAN del
+inversor algo mayor. Sin embargo, para una PyME que en su primer año de
+funcionamiento está absorbiendo la puesta en marcha del nuevo sistema y
+ajustando sus procesos, la cuota fija del sistema francés ofrece una ventaja
+concreta: permite planificar el flujo de caja con certeza y deja un margen libre
+de $2.002.577 en el año 1, frente a los $1.076.000 del sistema alemán. Ese mayor
+colchón de caja en el período de mayor incertidumbre operativa justifica la
+elección.
+
+Se adopta, por lo tanto, el **sistema francés** como método de amortización.
+
+#### Tabla de amortización — sistema francés
+
+Préstamo: $8.400.000 al 41% anual, 5 cuotas anuales iguales de $4.197.423.
+
+| Año | Saldo inicial | Interés | Amortización | Cuota | Saldo final |
+|---|---|---|---|---|---|
+| 1 | $8.400.000 | $3.444.000 | $753.423 | $4.197.423 | $7.646.577 |
+| 2 | $7.646.577 | $3.135.097 | $1.062.326 | $4.197.423 | $6.584.251 |
+| 3 | $6.584.251 | $2.699.543 | $1.497.880 | $4.197.423 | $5.086.371 |
+| 4 | $5.086.371 | $2.085.412 | $2.112.011 | $4.197.423 | $2.974.360 |
+| 5 | $2.974.360 | $1.219.488 | $2.977.935 | $4.197.423 | $0 |
+
+El interés decrece cada año porque la amortización crece: en los primeros años
+la mayor parte de la cuota son intereses; hacia el final, la mayor parte es
+devolución de capital.
+
+#### Flujo del inversor y rentabilidad sobre el capital propio
+
+El inversor aporta $3.600.000 de capital propio en el año 0. El préstamo cubre
+los $8.400.000 restantes. A partir de allí, el flujo que le queda al inversor
+es la diferencia entre el flujo neto del proyecto y el servicio de deuda anual:
+
+| Concepto | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
+|---|---|---|---|---|---|---|
+| Capital propio aportado | −$3.600.000 | — | — | — | — | — |
+| Flujo neto del proyecto | — | $6.200.000 | $7.104.000 | $8.080.320 | $9.134.746 | $10.273.525 |
+| Servicio de deuda (cuota francesa) | — | −$4.197.423 | −$4.197.423 | −$4.197.423 | −$4.197.423 | −$4.197.423 |
+| Flujo neto del inversor | −$3.600.000 | $2.002.577 | $2.906.577 | $3.882.897 | $4.937.323 | $6.076.102 |
+
+Los indicadores para el inversor, comparados con el proyecto puro:
+
+| Indicador | Proyecto puro | Proyecto financiado (70% deuda) |
+|---|---|---|
+| Capital aportado | $12.000.000 | $3.600.000 |
+| VAN (al 25%) | $8.751.704 | $5.863.332 |
+| TIR | 54,2% | ~77% |
+
+Aunque el VAN absoluto del inversor es menor —porque los intereses del préstamo
+reducen los flujos—, la TIR sobre el capital propio sube del 54,2% al 77%.
+Financiando el 70% de la inversión con deuda al 41%, el inversor coloca solo
+$3.600.000 y obtiene una rentabilidad 23 puntos porcentuales mayor a la del
+proyecto puro. Este es el efecto del apalancamiento financiero positivo: mientras
+la tasa de rentabilidad del proyecto supere el costo de la deuda, endeudarse
+mejora el retorno sobre el capital propio.
+
+### 9.5 Análisis de escenarios
+
+Para evaluar la solidez de los resultados se construyeron tres escenarios
+adversos y uno favorable, cada uno basado en un riesgo o una oportunidad
+concreta del proyecto.
+
+#### Escenario 1 (negativo): adopción lenta del sistema
+
+**Por qué puede ocurrir.** Las implementaciones de sistemas en PyMEs suelen
+encontrar resistencia del personal, que continúa usando las planillas en paralelo
+o demora la carga de la información. En ese caso los beneficios esperados —ahorro
+de tiempo administrativo, reducción de errores, mejora en ventas— tardan en
+materializarse.
+
+**Supuesto modificado.** Los beneficios del año 1 se reducen al 50% y los del
+año 2 al 70%; a partir del año 3 se recuperan los niveles del caso base.
+
+| Año | Flujo neto |
 |---|---|
-| 15% | $14.406.469 |
-| 20% | $11.310.070 |
-| 25% (caso base) | $8.751.704 |
-| 30% | $6.615.956 |
-| 35% | $4.816.034 |
-| 40% | $3.285.836 |
+| 0 | −$12.000.000 |
+| 1 | $550.000 |
+| 2 | $3.442.800 |
+| 3 | $8.080.320 |
+| 4 | $9.134.746 |
+| 5 | $10.273.525 |
 
-El VAN se mantiene positivo incluso con una tasa del 40%, lo que muestra que el
-proyecto resiste exigencias de rentabilidad bastante mayores a la planteada.
+**VAN (25%): $1.888.060.** El proyecto sigue siendo viable, aunque con un VAN
+muy reducido. La conclusión principal es que la capacitación y el acompañamiento
+durante la puesta en marcha no son gastos secundarios: sin adopción efectiva del
+sistema, el proyecto apenas cubre la inversión.
 
-El segundo análisis observa qué pasa si los beneficios estimados resultan
-mayores o menores a los previstos, manteniendo la tasa en 25%:
+#### Escenario 2 (negativo): sobrecosto de implementación
 
-| Escenario | VAN |
+**Por qué puede ocurrir.** Las implementaciones de sistemas suelen exceder el
+presupuesto inicial por causas como la complejidad no prevista de la migración
+de datos, renegociaciones con el proveedor o la necesidad de ajustes fuera del
+alcance original. En este escenario la contingencia de $1.200.000 ya incluida se
+agota y la inversión total termina siendo un 25% mayor a lo proyectado.
+
+**Supuesto modificado.** La inversión inicial sube de $12.000.000 a $15.000.000
+(incremento de $3.000.000 en el año 0). Los flujos operativos de los años 1 a 5
+no cambian.
+
+**VAN (25%): $5.751.704.** Aun con un sobrecosto del 25%, el proyecto continúa
+siendo rentable. El margen del VAN base absorbe el incremento de inversión sin
+que la conveniencia se revierta.
+
+#### Escenario 3 (negativo): caída sostenida de los beneficios
+
+**Por qué puede ocurrir.** El contexto comercial de la empresa puede
+deteriorarse —pérdida de clientes clave, entrada de un competidor fuerte,
+reducción del volumen de operaciones— o los beneficios pueden haber sido
+estimados de forma optimista. Este escenario supone que los beneficios resultan
+un 25% menores en todos los años del horizonte, sin recuperación.
+
+**Supuesto modificado.** Todos los beneficios se reducen un 25%.
+
+| Año | Flujo neto |
 |---|---|
-| Beneficios -20% | $1.858.298 |
-| Beneficios -10% | $5.305.001 |
-| Base (100%) | $8.751.704 |
-| Beneficios +10% | $12.198.408 |
-| Beneficios +20% | $15.645.111 |
+| 0 | −$12.000.000 |
+| 1 | $3.375.000 |
+| 2 | $4.053.000 |
+| 3 | $4.785.240 |
+| 4 | $5.576.060 |
+| 5 | $6.430.144 |
 
-Aun en el escenario más desfavorable, con beneficios un 20% por debajo de lo
-estimado, el VAN sigue siendo positivo. Esto le da robustez a la conclusión: el
-proyecto convendría incluso si las estimaciones de beneficios resultaran algo
-optimistas.
+**VAN (25%): $134.960.** Este es el escenario umbral: con una caída del 25%
+en los beneficios el proyecto queda en el límite de la viabilidad. Cualquier
+reducción adicional lo vuelve inviable, lo que indica que los beneficios son la
+variable más sensible del modelo y que sus estimaciones merecen revisarse con
+cuidado antes de tomar la decisión final.
 
-### 9.5 Análisis de riesgo
+#### Escenario 4 (positivo): crecimiento comercial apoyado en el tablero de control
+
+**Por qué puede ocurrir.** Una vez adoptado el sistema, el tablero de control
+provee a la gerencia información que antes no tenía disponible: qué productos
+tienen mayor margen, qué clientes generan más negocio, qué sucursal rinde mejor.
+Con esa visibilidad, es razonable que la empresa tome decisiones comerciales más
+acertadas y crezca más rápido que lo estimado. Este escenario eleva la tasa de
+crecimiento anual de los beneficios del 8% al 12% a partir del segundo año.
+
+**Supuesto modificado.** Los beneficios crecen un 12% anual desde el año 2 (en
+lugar del 8% del caso base). El año 1 permanece igual.
+
+| Año | Beneficios | Flujo neto |
+|---|---|---|
+| 1 | $11.300.000 | $6.200.000 |
+| 2 | $12.656.000 | $7.556.000 |
+| 3 | $14.174.720 | $9.074.720 |
+| 4 | $15.875.686 | $10.775.686 |
+| 5 | $17.780.769 | $12.680.769 |
+
+**VAN (25%): $11.011.129.** El VAN crece un 26% respecto del caso base, pasando
+de $8,75M a $11M. Este resultado no requiere condiciones extraordinarias: solo
+que el tablero de control cumpla la función para la que fue diseñado y que la
+gerencia aproveche la información disponible para tomar mejores decisiones
+comerciales.
+
+#### Resumen de escenarios
+
+| Escenario | Variable modificada | VAN resultante | Variación vs. base |
+|---|---|---|---|
+| 1. Adopción lenta | Benef. año 1 al 50%, año 2 al 70%; luego base | $1.888.060 | −78% |
+| 2. Sobrecosto de implementación | Inversión inicial +25% ($15.000.000) | $5.751.704 | −34% |
+| 3. Caída sostenida de beneficios | Beneficios −25% en todos los años | $134.960 | −98% |
+| Base | — | $8.751.704 | — |
+| 4. Crecimiento acelerado | Crecimiento anual 12% desde el año 2 (vs. 8%) | $11.011.129 | +26% |
+
+Los escenarios 1 y 2 muestran que el proyecto se sostiene frente a sus riesgos
+más probables. El escenario 3 señala que los beneficios son la variable más
+crítica: una caída generalizada del 25% lleva el VAN al límite. El escenario 4
+indica que el potencial alcista existe y es alcanzable sin condiciones
+excepcionales.
+
+### 9.6 Análisis de riesgo
 
 Más allá de los números, conviene tener presentes los riesgos que podrían
 afectar el resultado:
@@ -695,22 +861,31 @@ afectar el resultado:
 - La dependencia del proveedor del sistema para el soporte y el mantenimiento,
   que está cubierta por el contrato anual incluido en los costos operativos.
 
-El análisis de sensibilidad muestra que, aun considerando estos riesgos, el
-proyecto mantiene un margen amplio antes de dejar de ser conveniente.
+El análisis de escenarios muestra que, aun considerando estos riesgos, el
+proyecto mantiene un margen antes de dejar de ser conveniente, salvo ante una
+caída sostenida de los beneficios del orden del 25%, que es el umbral de
+viabilidad del modelo.
 
-### 9.6 Conclusión de la evaluación
+### 9.7 Conclusión de la evaluación
 
 A partir de los criterios aplicados, la evaluación es favorable. El proyecto
-presenta un VAN positivo de $8.751.704, una TIR del 54,2% muy superior a la tasa
-de descuento del 25%, un recupero de la inversión dentro de los primeros años y
-una relación beneficio-costo de 1,34. Los análisis de sensibilidad confirman que
-estos resultados se sostienen frente a tasas más altas y a beneficios menores a
-los estimados.
+presenta un VAN positivo de $8.751.704, una TIR del 54,2% muy superior a la
+tasa de descuento del 25%, un recupero de la inversión dentro de los primeros
+años y una relación beneficio-costo de 1,34. El análisis de escenarios confirma
+que los resultados se sostienen frente a sus riesgos más probables y solo se
+deterioran significativamente ante una caída generalizada de beneficios del 25%.
+
+En cuanto al financiamiento, el análisis muestra que endeudarse al 41% es
+conveniente dado que la TIR del proyecto supera el costo de la deuda. Con el 70%
+financiado mediante préstamo en sistema francés, la TIR sobre el capital propio
+asciende al 77%, lo que demuestra un apalancamiento financiero positivo y hace
+viable encarar la inversión sin disponer de la totalidad del capital.
 
 Por todo esto, se considera que la implementación del SIGC es económicamente
-viable y conveniente para la empresa, y se recomienda llevarla adelante
-acompañando la inversión con la capacitación y el seguimiento necesarios para
-que los beneficios proyectados se concreten.
+viable y conveniente para la empresa. Se recomienda llevarla adelante con la
+estructura de financiamiento propuesta y acompañando la inversión con la
+capacitación y el seguimiento necesarios para que los beneficios proyectados se
+concreten.
 
 ## 10. Conclusiones
 
@@ -736,9 +911,12 @@ de $12.000.000, costos operativos de $5.100.000 anuales y beneficios que parten
 de $11.300.000 en el primer año, el proyecto muestra un VAN positivo de
 $8.751.704, una TIR del 54,2% muy por encima de la tasa de descuento del 25% y
 un recupero de la inversión dentro de los primeros años. La relación
-beneficio-costo de 1,34 y los análisis de sensibilidad refuerzan esa conclusión,
-ya que el VAN se mantiene positivo aun con tasas más altas o con beneficios
-menores a los estimados.
+beneficio-costo de 1,34 y el análisis de escenarios refuerzan esa conclusión:
+aun ante un sobrecosto del 25% o demoras en la adopción del sistema, el VAN se
+mantiene positivo. Adicionalmente, financiar el 70% de la inversión con préstamo
+al 41% en sistema francés eleva la TIR sobre el capital propio al 77%,
+aprovechando el apalancamiento positivo que brinda un proyecto cuya rentabilidad
+supera el costo de la deuda.
 
 Por todo esto se concluye que el proyecto es viable y conveniente. De todos
 modos, su éxito depende de algunas condiciones: acompañar la implementación con
